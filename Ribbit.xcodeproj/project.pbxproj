@@ -19,6 +19,20 @@
 		EC41F9C518B5BFC500F29991 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC41F9AD18B5BFC500F29991 /* UIKit.framework */; };
 		EC41F9CD18B5BFC500F29991 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC41F9CB18B5BFC500F29991 /* InfoPlist.strings */; };
 		EC41F9CF18B5BFC500F29991 /* RibbitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC41F9CE18B5BFC500F29991 /* RibbitTests.m */; };
+		EC41F9DB18B5BFFF00F29991 /* MainStorybord.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC41F9DA18B5BFFF00F29991 /* MainStorybord.storyboard */; };
+		EC41F9DE18B5CB8E00F29991 /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC41F9DD18B5CB8E00F29991 /* InboxViewController.m */; };
+		EC41F9E018B5D2B700F29991 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC41F9DF18B5D2B700F29991 /* Parse.framework */; };
+		EC41F9EA18B5D32800F29991 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC41F9E118B5D32800F29991 /* AudioToolbox.framework */; };
+		EC41F9EB18B5D32800F29991 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC41F9E218B5D32800F29991 /* CFNetwork.framework */; };
+		EC41F9EC18B5D32800F29991 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC41F9E318B5D32800F29991 /* CoreLocation.framework */; };
+		EC41F9ED18B5D32800F29991 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC41F9E418B5D32800F29991 /* libz.1.1.3.dylib */; };
+		EC41F9EE18B5D32800F29991 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC41F9E518B5D32800F29991 /* MobileCoreServices.framework */; };
+		EC41F9EF18B5D32800F29991 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC41F9E618B5D32800F29991 /* QuartzCore.framework */; };
+		EC41F9F018B5D32800F29991 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC41F9E718B5D32800F29991 /* Security.framework */; };
+		EC41F9F118B5D32800F29991 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC41F9E818B5D32800F29991 /* StoreKit.framework */; };
+		EC41F9F218B5D32800F29991 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC41F9E918B5D32800F29991 /* SystemConfiguration.framework */; };
+		EC41F9F518B5D4DF00F29991 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC41F9F418B5D4DF00F29991 /* LoginViewController.m */; };
+		EC41F9F818B5D4F000F29991 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC41F9F718B5D4F000F29991 /* SignupViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +62,23 @@
 		EC41F9CA18B5BFC500F29991 /* RibbitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RibbitTests-Info.plist"; sourceTree = "<group>"; };
 		EC41F9CC18B5BFC500F29991 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC41F9CE18B5BFC500F29991 /* RibbitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RibbitTests.m; sourceTree = "<group>"; };
+		EC41F9DA18B5BFFF00F29991 /* MainStorybord.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStorybord.storyboard; sourceTree = "<group>"; };
+		EC41F9DC18B5CB8E00F29991 /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxViewController.h; sourceTree = "<group>"; };
+		EC41F9DD18B5CB8E00F29991 /* InboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxViewController.m; sourceTree = "<group>"; };
+		EC41F9DF18B5D2B700F29991 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		EC41F9E118B5D32800F29991 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EC41F9E218B5D32800F29991 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EC41F9E318B5D32800F29991 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EC41F9E418B5D32800F29991 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		EC41F9E518B5D32800F29991 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EC41F9E618B5D32800F29991 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EC41F9E718B5D32800F29991 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EC41F9E818B5D32800F29991 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EC41F9E918B5D32800F29991 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EC41F9F318B5D4DF00F29991 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		EC41F9F418B5D4DF00F29991 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		EC41F9F618B5D4F000F29991 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		EC41F9F718B5D4F000F29991 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +86,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC41F9EA18B5D32800F29991 /* AudioToolbox.framework in Frameworks */,
+				EC41F9EB18B5D32800F29991 /* CFNetwork.framework in Frameworks */,
+				EC41F9EC18B5D32800F29991 /* CoreLocation.framework in Frameworks */,
+				EC41F9ED18B5D32800F29991 /* libz.1.1.3.dylib in Frameworks */,
+				EC41F9EE18B5D32800F29991 /* MobileCoreServices.framework in Frameworks */,
+				EC41F9EF18B5D32800F29991 /* QuartzCore.framework in Frameworks */,
+				EC41F9F018B5D32800F29991 /* Security.framework in Frameworks */,
+				EC41F9F118B5D32800F29991 /* StoreKit.framework in Frameworks */,
+				EC41F9F218B5D32800F29991 /* SystemConfiguration.framework in Frameworks */,
 				EC41F9AC18B5BFC500F29991 /* CoreGraphics.framework in Frameworks */,
 				EC41F9AE18B5BFC500F29991 /* UIKit.framework in Frameworks */,
+				EC41F9E018B5D2B700F29991 /* Parse.framework in Frameworks */,
 				EC41F9AA18B5BFC500F29991 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +137,16 @@
 		EC41F9A818B5BFC500F29991 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC41F9E118B5D32800F29991 /* AudioToolbox.framework */,
+				EC41F9E218B5D32800F29991 /* CFNetwork.framework */,
+				EC41F9E318B5D32800F29991 /* CoreLocation.framework */,
+				EC41F9E418B5D32800F29991 /* libz.1.1.3.dylib */,
+				EC41F9E518B5D32800F29991 /* MobileCoreServices.framework */,
+				EC41F9E618B5D32800F29991 /* QuartzCore.framework */,
+				EC41F9E718B5D32800F29991 /* Security.framework */,
+				EC41F9E818B5D32800F29991 /* StoreKit.framework */,
+				EC41F9E918B5D32800F29991 /* SystemConfiguration.framework */,
+				EC41F9DF18B5D2B700F29991 /* Parse.framework */,
 				EC41F9A918B5BFC500F29991 /* Foundation.framework */,
 				EC41F9AB18B5BFC500F29991 /* CoreGraphics.framework */,
 				EC41F9AD18B5BFC500F29991 /* UIKit.framework */,
@@ -111,6 +162,13 @@
 				EC41F9B918B5BFC500F29991 /* AppDelegate.m */,
 				EC41F9BB18B5BFC500F29991 /* Images.xcassets */,
 				EC41F9B018B5BFC500F29991 /* Supporting Files */,
+				EC41F9DA18B5BFFF00F29991 /* MainStorybord.storyboard */,
+				EC41F9DC18B5CB8E00F29991 /* InboxViewController.h */,
+				EC41F9DD18B5CB8E00F29991 /* InboxViewController.m */,
+				EC41F9F318B5D4DF00F29991 /* LoginViewController.h */,
+				EC41F9F418B5D4DF00F29991 /* LoginViewController.m */,
+				EC41F9F618B5D4F000F29991 /* SignupViewController.h */,
+				EC41F9F718B5D4F000F29991 /* SignupViewController.m */,
 			);
 			path = Ribbit;
 			sourceTree = "<group>";
@@ -219,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC41F9DB18B5BFFF00F29991 /* MainStorybord.storyboard in Resources */,
 				EC41F9B418B5BFC500F29991 /* InfoPlist.strings in Resources */,
 				EC41F9BC18B5BFC500F29991 /* Images.xcassets in Resources */,
 			);
@@ -239,8 +298,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC41F9F518B5D4DF00F29991 /* LoginViewController.m in Sources */,
 				EC41F9BA18B5BFC500F29991 /* AppDelegate.m in Sources */,
 				EC41F9B618B5BFC500F29991 /* main.m in Sources */,
+				EC41F9DE18B5CB8E00F29991 /* InboxViewController.m in Sources */,
+				EC41F9F818B5D4F000F29991 /* SignupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +421,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/stepheng/Documents/projects/Ribbit,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ribbit/Ribbit-Prefix.pch";
 				INFOPLIST_FILE = "Ribbit/Ribbit-Info.plist";
@@ -372,6 +438,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/stepheng/Documents/projects/Ribbit,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ribbit/Ribbit-Prefix.pch";
 				INFOPLIST_FILE = "Ribbit/Ribbit-Info.plist";
